@@ -750,5 +750,5 @@ def render():
 
 
 if __name__ == "__main__":
-    st.set_page_config(page_title="KPI Evidence Verifier", page_icon="✓", layout="wide")
+    st.set_page_config(page_title="AI-Based Data Assurance System", page_icon="✓", layout="wide")
     render()
