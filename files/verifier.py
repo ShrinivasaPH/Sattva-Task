@@ -638,13 +638,13 @@ def render():
     engine = "spaCy en_core_web_sm + domain rules" if nlp else "domain rules (rule + lexicon)"
 
     st.title("KPI Evidence Verifier")
-    st.caption(f"NER engine: **{engine}** · verification runs per record, on demand — "
-               "nothing is verified until you ask for it.")
+    #st.caption(f"NER engine: **{engine}** · verification runs per record, on demand — "
+    #           "nothing is verified until you ask for it.")
     st.write("Press **Verify** on a line-item to run NER over its supporting evidence, "
              "extract the relevant value, and reconcile it against the reported number, "
              "location, and details.")
-    st.caption("Handles diverse real-world evidence — PDFs, Word, Excel, certificates, photographs, "
-               "signboards, scans — across English, Hindi, and Odia. Low-confidence or unreadable "
+    st.caption("Handles diverse real-world evidences like PDFs, Word, Excel, certificates, photographs, "
+               "signboards, scans across English, Hindi, and Odia. Low-confidence or unreadable "
                "cases are routed to review or escalated rather than guessed.")
 
     # ---- summary ----
