@@ -17,8 +17,8 @@ MAIN_HEADER = "· KPI Dashboards ·"
 DASHBOARDS = [
     {"header": "Monthly Update Compliance", "url": "https://public.tableau.com/views/KPIUpdate-Compliance/MonthlyEntry-Presence?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"},   # ← paste the Tableau view URL here
     {"header": "KPI-wise Completion", "url": "https://public.tableau.com/views/CompletionbyKPI/CompletionbyKPI?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"},
-    {"header": "Visualisation 3", "url": ""},
-    {"header": "Visualisation 4", "url": ""},
+    {"header": "Project-wise Completion", "url": "https://public.tableau.com/views/CompletionbyProject/CompletionbyProject?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"},
+    {"header": "Location-wise Completion", "url": "https://public.tableau.com/views/CompletionbyLocation/CompletionbyLocation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"},
 ]
 
 
