@@ -1,0 +1,12 @@
+streamlit>=1.36     # st.navigation multipage app
+spacy>=3.7
+pymupdf>=1.23      # locate & render the discrepant value inside PDF evidence
+pillow>=10         # box the value on image evidence
+pandas>=2.0
+openpyxl>=3.1      # read .xlsx evidence
+reportlab>=4.0     # regenerate synthetic evidence (make_evidence.py)
+python-docx>=1.1   # generate/read Word evidence
+
+# After installing, download the spaCy English model (optional — the app falls
+# back to its rule-based NER if this is missing):
+#   python -m spacy download en_core_web_sm
