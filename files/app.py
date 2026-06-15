@@ -12,13 +12,13 @@ st.set_page_config(page_title="Sattva — Data Assignment", page_icon="📊", la
 import verifier
 
 # ───────── PAGE 1 — edit these two things ───────── #
-MAIN_HEADER = "· KPI Dashboards ·"
+MAIN_HEADER = ":green[Dashboards]"
 
 DASHBOARDS = [
-    {"header": "Monthly Update Compliance", "url": "https://public.tableau.com/views/KPIUpdate-Compliance/MonthlyEntry-Presence?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"},   # ← paste the Tableau view URL here
-    {"header": "KPI-wise Completion", "url": "https://public.tableau.com/views/CompletionbyKPI/CompletionbyKPI?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"},
-    {"header": "Project-wise Completion", "url": "https://public.tableau.com/views/CompletionbyProject/CompletionbyProject?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"},
-    {"header": "Location-wise Completion", "url": "https://public.tableau.com/views/CompletionbyLocation/CompletionbyLocation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"},
+    {"header": ":blue[Monthly Update Compliance]", "url": "https://public.tableau.com/views/KPIUpdate-Compliance/MonthlyEntry-Presence?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"},   # ← paste the Tableau view URL here
+    {"header": ":blue[KPI-wise Completion]", "url": "https://public.tableau.com/views/CompletionbyKPI/CompletionbyKPI?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"},
+    {"header": ":blue[Project-wise Completion]", "url": "https://public.tableau.com/views/CompletionbyProject/CompletionbyProject?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"},
+    {"header": ":blue[Location-wise Completion]", "url": "https://public.tableau.com/views/CompletionbyLocation/CompletionbyLocation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"},
 ]
 
 
@@ -33,6 +33,7 @@ def task1():
             f'width="100%" height="800" style="border:none"></iframe>',
             height=820, scrolling=True,
         )
+        st.divider()
 # ─────────────────────────────────────────────────── #
 
 nav = st.navigation([
